@@ -1,0 +1,85 @@
+*{
+    font-family:"Lata-Regular",Helvetica,Arial, Helvetica, sans-serif;
+    /* background-color: #F2F2F2; */
+}
+.maindiv{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 30;
+    text-transform: none;
+    background-color: white;
+}
+.uppercontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 20px 50px 20px 20px;
+    margin-top: 20px;
+}
+/* .logodiv{
+    border: 1px solid black;
+} */
+.image{
+    height: 60px;
+    width: 212px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
+.iconglass{
+    height: 25px;
+    width: 25px;
+    padding-top: 5px;
+}
+.searchbar{
+    width: 250px;
+    border: 0px;
+}
+.searchbardiv{
+   display: flex;
+    width: 300px;
+    height: 30px;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+}
+.logincartdiv{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    border: 1px solid lightgrey;
+    margin-right:-100px;
+}
+.lowercontainer{
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    gap: 15px;
+    padding-top: 0px;
+}
+.lowercontainer>p{
+    font-size: 15px;
+    color: gray;
+}
+.hrtag{
+    border: 1px solid black;
+}
+.login,.cart{
+    color: black;
+    text-decoration: none;
+    background-color:white;
+}
+.loginbutton{
+    background-color: white;
+    border: 0px;
+    font-size: 20px;
+}
+.dropdownlogin{
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid black; */
+    background-color: #F2F2F2;
+}

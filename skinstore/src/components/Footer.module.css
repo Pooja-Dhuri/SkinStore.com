@@ -1,0 +1,79 @@
+.maindiv{
+    /* border: 1px solid black; */
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+    /* display: flex; */
+}
+.upperdiv{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.mediaiconsdiv{
+    display: flex;
+    gap: 15px;
+}
+.icondiv{
+    height: 35px;
+    width: 35px;
+    padding-bottom: 30px;
+    filter: rgb(244, 235, 235);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    filter: grayscale(0%)
+    
+}
+.icondiv:hover{
+    filter: grayscale(100%);
+ -webkit-filter: grayscale(100%);
+ /* -webkit-transition: all 1s ease; */
+}
+.rightlowerdiv{
+    display: flex;
+    gap: 40px;
+}
+.infodiv{
+    text-align: left;
+}
+.upperleft{
+    margin-left: 50px;
+}
+div>h5{
+    color: grey;
+    font-weight: lighter;
+    text-align: left;
+}
+.button{
+    padding: 10px 25px 10px 25px;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: -350px;
+}
+div>h4{
+    text-align: left;
+}
+.lowerfooterdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.payimg{
+    display: flex;
+    gap: 10px;
+}
+.image{
+    border: 1px solid rgb(225, 216, 216);
+    border-radius: 5px;
+
+}
+.leftlowerdiv{
+    margin-left: 30px;
+}
+.image>img{
+    height: 30px;
+    width: 45px;
+}

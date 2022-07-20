@@ -1,0 +1,17 @@
+.firstdiv{
+   display: flex;
+   justify-content: space-around;
+   gap: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+   background-color: #F2F2F2;
+}
+.offerdiv{
+   background-color:#2E3337;
+   color: white;
+   padding: 0.01px;
+}
+.offerdiv:hover{
+    background-color: white;
+    color: black;
+}
