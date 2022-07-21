@@ -28,6 +28,9 @@ const Navbar = () => {
   function handleClick(){
     navigate("/login")
   }
+  function handlereg(){
+    navigate("/register")
+  }
   return (
     <>
       {/* main div */}
@@ -99,7 +102,7 @@ const Navbar = () => {
                       width: "260px",
                       height: "40px",
                       margin: "10px 30px 30px 20px",
-                    }}
+                    }}onClick={handlereg}
                   >
                     REGISTER
                   </MenuItem>
@@ -150,6 +153,7 @@ const Navbar = () => {
                       height: "40px",
                       margin: "10px 30px 30px 20px",
                     }}
+                    
                   >
                     REGISTER
                   </MenuItem>
