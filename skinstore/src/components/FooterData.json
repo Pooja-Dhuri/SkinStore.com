@@ -1,0 +1,126 @@
+{
+    "HelpInfo":[
+        {
+           "icon":"BsFillTelephoneFill",
+           "title":"customer Service"
+        },
+        {
+            "icon":"FaCarSide",
+           "title":"Delivery Information"
+         },
+         {
+            "icon":"SiRedhatopenshift",
+            "title":"Returns & Refunds"
+         },
+         {
+            "icon":"IoMdHelp",
+            "title":"HelpCenter"
+         },
+         {
+            "icon":"FaCrosshairs",
+            "title":"Track My Order"
+         },
+         {
+            "icon":"",
+           "title":"Accessibility"
+         },
+         {
+            "icon":"FaCookie",
+            "title":"Cookie Setting"
+         }
+    ],
+    "socialMedia":[
+        {
+            "icons":"https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-128.png"
+        },
+        {
+            "icons":"https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-128.png"
+        },
+        {
+            "icons":"https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-128.png"
+        },
+        {
+            "icons":"https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Pinterest_colored_svg-128.png"
+        },
+        {
+            "icons":"https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Snapchat-128.png"
+        }
+    ],
+    "about":[
+         {
+            "title":"Key Workers Discount"
+         },
+         {
+            "title":"About Us"
+         },
+         {
+            "title":"Affiliate Program"
+         },
+         {
+            "title":"Brand Directory"
+         },
+         {
+            "title":"Couoon Codes"
+         },
+         {
+            "title":"Rafer A Friend"
+         },
+         {
+            "title":"Student Discount"
+         },
+         {
+            "title":"Join SkinStore Exoerts"
+         }
+    ],
+    "legal":[
+        {
+            "title":"Cookie Information"
+        },
+        {
+            "title":"Privacy Policy"
+        },
+        {
+            "title":"Terms & Conditions"
+        },
+        {
+            "title":"Modern Slavery Statement"
+        }
+    ],
+    "payment":[
+        {"icon":"https://cdn0.iconfinder.com/data/icons/flat-design-business-set-3/24/payment-method-visa-128.png"
+        },
+        {
+            "icon":"https://cdn2.iconfinder.com/data/icons/credit-cards-6/156/mastercard-128.png"
+        },
+        {
+            "icon":"https://cdn2.iconfinder.com/data/icons/credit-cards-6/156/american_express-128.png"
+        },
+        {
+            "icon":"https://cdn3.iconfinder.com/data/icons/credit-cards-icon-set/64/Bank.png"
+        },
+        {
+            "icon":"https://cdn2.iconfinder.com/data/icons/credit-cards-6/156/discover-128.png"
+        },
+        {
+            "icon":"https://cdn2.iconfinder.com/data/icons/credit-cards-6/156/maestro-128.png"
+        },
+        {
+            "icon":"https://cdn0.iconfinder.com/data/icons/flat-design-business-set-3/24/payment-method-cirrus-128.png"
+        },
+        {
+            "icon":"https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/80/Direct-Debit-Curved.png"
+        },
+        {
+            "icon":"https://cdn0.iconfinder.com/data/icons/major-credit-cards-colored/48/JD-06-128.png"
+        },
+        {
+            "icon":"https://cdn3.iconfinder.com/data/icons/pix-glyph-set/50/520775-paypal-128.png"
+        },
+        {
+            "icon":"https://cdn3.iconfinder.com/data/icons/finance-152/64/21-128.png"
+        },
+        {
+            "icon":"https://cdn2.iconfinder.com/data/icons/gadgets-and-devices/48/98-128.png"
+        }
+    ]
+}
