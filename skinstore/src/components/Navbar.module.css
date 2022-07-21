@@ -51,7 +51,7 @@
     display: flex;
     justify-content: space-around;
     gap: 80px;
-    border: 1px solid lightgrey;
+    /* border: 1px solid lightgrey; */
     margin-right:-100px;
 }
 .lowercontainer{
