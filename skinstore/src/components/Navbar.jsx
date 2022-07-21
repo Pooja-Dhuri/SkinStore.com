@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import style from "./Navbar.module.css";
 import { FaSistrix, FaUserAlt, FaShoppingBasket } from "react-icons/fa";
 import {
@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 
 const Navbar = () => {
+  const navigate=useNavigate()
   const {
     isOpen: isLoginOpen,
     onOpen: onLoginOpen,
@@ -23,7 +24,10 @@ const Navbar = () => {
     onOpen: onCartOpen,
     onClose: onCartClose,
   } = useDisclosure();
-
+ 
+  function handleClick(){
+    navigate("/login")
+  }
   return (
     <>
       {/* main div */}
@@ -69,8 +73,9 @@ const Navbar = () => {
                   onMouseEnter={onLoginOpen}
                   onMouseLeave={onLoginClose}
                 >
+                  <FaUserAlt className={style.icon} />
                   <Link to="/login" className={style.login}>
-                    <FaUserAlt className={style.icon} /> Account
+                    Account
                   </Link>
                 </MenuButton>
                 <MenuList
@@ -78,17 +83,17 @@ const Navbar = () => {
                   onMouseLeave={onLoginClose}
                   className={style.dropdownlogin}
                 >
-                  <Button
+                  <MenuItem
                     style={{
                       width: "260px",
                       height: "40px",
                       margin: "30px 30px 10px 20px",
                       backgroundColor: "black",
                       color: "white",
-                    }}
+                    }}onClick={handleClick}
                   >
                     Login
-                  </Button>
+                  </MenuItem>
                   <MenuItem
                     style={{
                       width: "260px",
