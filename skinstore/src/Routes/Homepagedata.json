@@ -1,0 +1,118 @@
+{
+    "trendingOffers":[
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/39/1224-STDCRE-28425-WC-SS-SkinStore-January-Photography-2022-BATCHING_Shot17-600x600-053341-095839.jpg",
+            "title":"$21SkinCeuticals Gift",
+            "description":"SkinCeuticals Retexturing Activation 4ml(worth $21)when you spend $150 or more on the brand"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/27/LF-EF-US-Comps-REN-380x312-091127.jpg",
+            "title":"25% off sun care",
+            "description":"Pamper your summer skin with 25% off select sun care on SkinStore"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/21/0807-STDCRE-38045-SS-AM-Photography-Shot_10-500x500-052921.jpg",
+            "title":"Brand of the Month:Elemis+Gift",
+            "description":"Plus,receive an Elemis RIXO Gift Set(Worth $75)when you spend $100 or more on the brand"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/15/decorte.products-082615.jpeg",
+            "title":"30% off select Decorate",
+            "description":"Enjoy 30% off select Decorate,and experience the wisdom of traditional Japanese skincare,powered by unparalleled texhnoinnovation to transform your skin"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/11/original-Shop_the_Range_0002_Skincare-053111.jpg",
+            "title":"$24PUR Gift",
+            "description":"Receive a PUR Best Sellers Set(worth $24)when you spend $60 or more on the brand"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/26/SkinMedica.products-092426.jpg",
+            "title":"10%off SkinMedica+extra 20% off with Auto Replenishment",
+            "description":"Receive a Free SkinMedica Instant Bright Eye Cream.07oz(worth$14)when you spend $130 or more on the brand.Plus,receive an EXTRA 20% off when you subscribe to your favorite SkinMedica products"
+        }
+    ],
+    "Category":[
+        {
+            "title":"SKINCARE",
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/01/Page-001-025201.png"
+        },
+        {
+            "title":"HARECARE",
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/09/Page-002-025209.png"
+        },
+        {
+            "title":"MAKEUP",
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/17/Page-003-025217.png"
+        },
+        {
+            "title":"TOOLS",
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/21/Page-004-025221.png"
+        },
+        {
+            "title":"BATH & BODY",
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/40/Page-005-025240.png"
+        },
+        {
+            "title":"SELF-CARE",
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/58/Page-006-025258.png"
+        }
+    ],
+    "like":[
+        {
+            "image":"https://static.thcdn.com/images/small/webp//productimg/480/480/11289609-1174892770940184.jpg",
+            "title":"SkinCeuticals C E Ferulic with 15% L-Ascorbic Acid Vitamin C Serum 30ml",
+            "price":"$169.00"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp//productimg/480/480/11588281-8764882139037003.jpg",
+            "title":"Sunday Riley GOOD GENES All-In-One Latic Acid Treatment(0.5oz)",
+            "price":"$122.00"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp//productimg/480/480/13547814-8054931654720532.jpg",
+            "title":"Borghese Borghesse Acqua Ristorativo Hydrating Concentrate 30ml",
+            "price":"$90.00"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp//productimg/480/480/11523630-6274891243712913.jpg",
+            "title":"Elemis Pro-Collagen Cleansing Balm 100g",
+            "price":"$66.00"
+        }
+    ],
+    "companies":[
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/26/180x72_4_233548301_CA_SS_Logo_Amend_BAU_THG0030424-041301-124116-063126.png"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/18/original-logo-1024x383-035229-063318.png"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/11/Revision_Skincare_Logo_without_Tag_Line-052511.png"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/46/original-NF_Skinstore_Banner_Logo_Color_320x140-01-011402-010546.png"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/27/220322-ELTAMD-LOGO-RGB-01-065127.png"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/07/original-LOGO-2022_SkinStore_Landing_Page-BLACK-060107.png"
+        }
+    ],
+    "blog":[
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/10/original-0328-STDCRE-33849-WC-SS-April-Photography-Batching-Shot07-500x500-030310.jpg",
+            "title":"SkinCeuticals:Vitamin C Beyond the Face",
+            "des":"SkinCeuticals believes in celebrating skinprotective and rejuvenatingpowers of vitamin Cevery day but this year they  re making sure your eyes and lips get in on the antioxidant action(and benefits)"
+        },{
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/51/original-0224-STDCRE-32153-SS-BME-Skinstore-March-2022-Photography-Batching-Shot_13-500x500-023351.jpg",
+            "title":"Which TriPollar Device is Right for You?",
+            "des":"In 2008 TriPollar launched themselves into the home beauty sphere with an aim to innovate the technology behind at-home treatments and device"
+        },
+        {
+            "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/53/2004_THG0034749_SS_MAY_2022_SHOT_33_MAIN-071653.jpg",
+            "title":"The HairStore at SkinStore:What Your Routine Needs",
+            "des":"Give your hair the same love and care you give your skin by shopping The HairStore at SkinStore"
+        }
+    ]
+}

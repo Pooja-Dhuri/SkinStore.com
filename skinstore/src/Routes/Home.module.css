@@ -1,0 +1,97 @@
+.firstdiv{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #F2F2F2;
+ }
+ .offerdiv{
+    background-color:#2E3337;
+    color: white;
+    padding: 0.01px;
+ }
+ .offerdiv:hover{
+     background-color: white;
+     color: black;
+ }
+ .trenddiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+ }
+ .trendimg{
+    border-radius: 50%;
+    height: 392px;
+    width: 393px;
+ }
+ .title{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+ }
+ .titlep{
+    font-size: 16px;
+    font-weight: 350;
+    color: grey;
+    line-height: 1.5;
+ }
+ .trendhead{
+    font-size: 35px;
+    /* font-weight: 300; */
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .btn{
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+    margin-top: 20px;
+ }
+ .category{
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 40px;
+ }
+ .catimg{
+    height: 200px;
+    width: 200px;
+ }
+ .likediv{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .comdiv{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+ }
+ .blogdiv{
+    display: flex;
+    gap: 30px;
+ }
+ .bottlediv{
+    display: flex;
+ }
+ .likeimg{
+    height: 300px;
+    width: 300px;
+ }
+ .comimg{
+    height: 75px;
+    width: 180px;
+ }
+ .captureimg{
+    height: 100%;
+    width: 150%;
+ }
+ .likebtn{
+    background-color:#2E3337;
+    width: 300px;
+    color: white;
+    height: 50px;
+    border: 0px;
+ }
+ 
