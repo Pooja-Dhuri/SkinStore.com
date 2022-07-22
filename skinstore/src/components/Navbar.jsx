@@ -93,20 +93,21 @@ const Navbar = () => {
                       margin: "30px 30px 10px 20px",
                       backgroundColor: "black",
                       color: "white",
+                      paddingLeft:"100px"
                     }}onClick={handleClick}
                   >
-                    Login
+                    LOGIN
                   </MenuItem>
                   <MenuItem
                     style={{
                       width: "260px",
                       height: "40px",
                       margin: "10px 30px 30px 20px",
+                      paddingLeft:"100px"
                     }}onClick={handlereg}
                   >
                     REGISTER
                   </MenuItem>
-                  <MenuItem>Menu Item 3</MenuItem>
                 </MenuList>
               </Menu>
             </div>
@@ -136,28 +137,7 @@ const Navbar = () => {
                   onMouseLeave={onCartClose}
                   className={style.dropdownlogin}
                 >
-                  <Button
-                    style={{
-                      width: "260px",
-                      height: "40px",
-                      margin: "30px 30px 10px 20px",
-                      backgroundColor: "black",
-                      color: "white",
-                    }}
-                  >
-                    Login
-                  </Button>
-                  <MenuItem
-                    style={{
-                      width: "260px",
-                      height: "40px",
-                      margin: "10px 30px 30px 20px",
-                    }}
-                    
-                  >
-                    REGISTER
-                  </MenuItem>
-                  <MenuItem>Menu Item 3</MenuItem>
+                  <MenuItem>There is nothing In your cart</MenuItem>
                 </MenuList>
               </Menu>
             </div>

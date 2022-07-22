@@ -1,16 +1,21 @@
 import React,{useState} from 'react'
+import { useContext } from 'react'
 import { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { AuthContext } from '../Context/AuthContext'
+import Login from './Login'
 import style from './Register.module.css'
 // import { FcGoogle } from 'react-icons/fa'
 
 
 const Register = () => {
     const ref=useRef()
+    const {bringForm}=useContext(AuthContext)
     const navigate=useNavigate()
     const [data,setData]=useState({
         fname:"",email:"",password:"",mobile:"",referal:""
     })
+    
   function handleChange(e){
     const {name,value}=e.target
     setData({
@@ -24,7 +29,10 @@ const Register = () => {
         alert("plz fill the details")
     }
     else{
-        navigate("/login")
+        navigate("/login");
+        // <Login regdata={data}/>
+        // console.log(data.email)
+        bringForm(data.email,data.password)
     }
      
   }
@@ -36,8 +44,8 @@ const Register = () => {
             <h1 className={style.head}>About You</h1>
             <h2 className={style.head}>Sign Up With</h2>
             <div className={style.btndiv} >
-                <div><button className={style.btn}>facebook</button></div>
-                <div><button className={style.btn}>Google</button></div>
+            <div><button className={style.btn}><img src="https://findicons.com/files/icons/2287/32_pixel_social_media_icons/32/facebook.png"className={style.socialicons}/>facebook</button></div>
+                <div><button className={style.btn}><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ32muOrsvvzFQKEgFJA65MK6mtDXXaEAKUkCi5YKFzZg&s"className={style.socialicons}/>Google</button></div>
             </div>
             <div><hr className={style.hrtag}/></div>
             
