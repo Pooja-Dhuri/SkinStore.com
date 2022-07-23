@@ -1,0 +1,23 @@
+{
+    "Gender":[
+        {"gtitle":"men"},
+        {"gtitle":"wemen"}
+    ],
+    "Price":[
+        {"ptitle":"Less the $10(2)"},
+        {"ptitle":"$10-$25(14)"},
+        {"ptitle":"$50(41)"},
+        {"ptitle":"$50-$100(21"},
+        {"ptitle":"More than $100(1"}
+    ],
+    "review":[
+        {"rtitle":"2-3(2)"},
+        {"rtitle":"3-4(4)"},
+        {"rtitle":"4-(25"}
+    ],
+    "Day":[
+        {"dtitle":"Any(32)"},
+        {"dtitle":"Day(29)"},
+        {"dtitle":"Night(10)"}
+    ]
+}

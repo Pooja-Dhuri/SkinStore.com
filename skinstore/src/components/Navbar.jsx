@@ -10,9 +10,14 @@ import {
   Button,
   MenuList,
   useColorModeValue,
+  border,
 } from "@chakra-ui/react";
+import { useContext } from "react";
+import { AuthContext } from "../Context/AuthContext";
 
 const Navbar = () => {
+  const {isAuth,getdata}=useContext(AuthContext)
+  console.log(getdata.fname1)
   const navigate=useNavigate()
   const {
     isOpen: isLoginOpen,
@@ -24,12 +29,20 @@ const Navbar = () => {
     onOpen: onCartOpen,
     onClose: onCartClose,
   } = useDisclosure();
+  const {
+    isOpen: isLogin1Open,
+    onOpen: onLogin1Open,
+    onClose: onLogin1Close,
+  } = useDisclosure();
  
   function handleClick(){
     navigate("/login")
   }
   function handlereg(){
     navigate("/register")
+  }
+  function handlelogout(){
+    window.location.reload()
   }
   return (
     <>
@@ -62,13 +75,12 @@ const Navbar = () => {
           <div className={style.logincartdiv}>
             {/* login div */}
             <div>
-              <Menu isOpen={isLoginOpen}>
+              {!isAuth?<Menu isOpen={isLoginOpen}>
                 <MenuButton
                   variant="outline"
                   mx={1}
                   py={[, 2, 2]}
                   px={4}
-                  _hover={{ bg: useColorModeValue("white.100", "white.700") }}
                   aria-label="Courses"
                   fontWeight="200px"
                   border={0}
@@ -109,7 +121,50 @@ const Navbar = () => {
                     REGISTER
                   </MenuItem>
                 </MenuList>
-              </Menu>
+              </Menu>:
+              <Menu isOpen={isLogin1Open}>
+              <MenuButton
+                variant="outline"
+                mx={1}
+                py={[, 2, 2]}
+                px={4}
+                aria-label="Courses"
+                fontWeight="200px"
+                border={0}
+                className={style.loginbutton}
+                onMouseEnter={onLogin1Open}
+                onMouseLeave={onLogin1Close}
+              >
+                <Link to="/login" className={style.cart}>
+                <FaUserAlt className={style.icon} />
+                  Account
+                </Link>
+              </MenuButton>
+              <MenuList
+                onMouseEnter={onLogin1Open}
+                onMouseLeave={onLogin1Close}
+                className={style.dropdownlogin1}
+              >
+                <MenuItem style={{
+                      width: "50px",
+                      height: "40px",
+                      margin: "10px 30px 30px 20px",
+                      paddingLeft:"40px",
+                      border:"0px"
+                    }}>{getdata.fname1}</MenuItem>
+                <MenuItem onClick={handlelogout}
+                style={{
+                  width: "50px",
+                  height: "40px",
+                  margin: "10px 30px 30px 20px",
+                  paddingLeft:"40px",
+                  border:"0px",
+                  fontSize:"20px",
+                }}
+                >LOGOUT</MenuItem>
+              </MenuList>
+            </Menu>
+              }
             </div>
             {/* cart div */}
             <div>
@@ -149,19 +204,19 @@ const Navbar = () => {
 
         {/* lower div */}
         <div className={style.lowercontainer}>
-          <p>Brands</p>
-          <p>Summer Shop</p>
-          <p>Sale</p>
-          <p>Build a Routine</p>
-          <p>Skin-Care</p>
-          <p>Hair</p>
-          <p>MakeUp</p>
-          <p>Tools</p>
-          <p>Bath& Body</p>
-          <p>Self-care</p>
-          <p>Fragrance</p>
-          <p>new & Trending</p>
-          <p>Advice</p>
+          <div><p>Brands</p></div>
+          <div><p>Summer Shop</p></div>
+          <div><p>Sale</p></div>
+          <div><p>Build a Routine</p></div>
+          <div><p>Skin-Care</p></div>
+          <div><p>Hair</p></div>
+          <div><p>MakeUp</p></div>
+          <div><p>Tools</p></div>
+          <div><p>Bath& Body</p></div>
+          <div><p>Self-care</p></div>
+          <div><p>Fragrance</p></div>
+          <div><p>new & Trending</p></div>
+          <div><p>Advice</p></div>
         </div>
       </div>
     </>

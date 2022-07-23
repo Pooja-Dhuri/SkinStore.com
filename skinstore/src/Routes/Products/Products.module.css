@@ -1,0 +1,58 @@
+.productmap{
+  
+   /* margin: 20% 0px 0px 20%; */
+   display: grid;
+   /* position: absolute; */
+   grid-template-columns: repeat(3,1fr);
+   /* border: 1px solid black; */
+   gap: 30px;
+} 
+.productmapdiv{
+    width: 80%; 
+}
+.contentdata{
+    display: flex;
+    justify-content: space-between;
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.pagebtn{
+    display: flex;
+}
+.pagebtn>div{
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+}
+.singlebutton{
+    height: 45px;
+    width: 45px;
+    border: 0px;
+    background-color: white;
+}
+.singlebutton1{
+    height: 45px;
+    width: 45px;
+    border: 0px;
+    background-color: white;
+}
+.singlebutton1:hover{
+    background-color: #2E3337;
+    color: wheat;
+}
+.filterdiv{
+    display: flex;
+    gap: 20px;
+}
+.selectdiv{
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+}
+.gapmap>div{
+    text-align: left;
+    line-height: 20px;
+}

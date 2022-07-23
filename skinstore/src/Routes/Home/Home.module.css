@@ -30,13 +30,17 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.8;
+    text-decoration: none;
+    color: black;
  }
  .titlep{
     font-size: 16px;
     font-weight: 350;
     color: grey;
     line-height: 1.5;
+    text-decoration: none;
  }
+ 
  .trendhead{
     font-size: 35px;
     /* font-weight: 300; */
@@ -49,6 +53,9 @@
     padding: 15px;
     border: 1px solid black;
     margin-top: 20px;
+ }
+ .btn:hover{
+   background-color: rgb(197, 244, 228);
  }
  .category{
     display: flex;
@@ -93,5 +100,9 @@
     color: white;
     height: 50px;
     border: 0px;
+ }
+ .likebtn:hover{
+   background-color: teal;
+   border: 0px;
  }
  

@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { AuthContext } from '../Context/AuthContext'
+import { AuthContext } from '../../Context/AuthContext'
 import style from './Register.module.css'
 
 const Login = () => {
@@ -15,10 +15,13 @@ const Login = () => {
         ...logindata,[name]:value
     })
   }
+  function handleClick(){
+    navigate("/Register")
+  }
   function handleLoginClick(e){
     e.preventDefault()
     bringLoginform(logindata.email,logindata.password)
-      if(isAuth===false){
+      if(isAuth){
         logout()
         alert("wrong email or password")
         
@@ -61,7 +64,7 @@ const Login = () => {
           <h2>New Coustomers</h2>
         </div>
         <div>
-        <button className={style.clickloginbtn}>REGISTER</button>
+        <button className={style.clickloginbtn} onClick={handleClick}>REGISTER</button>
         </div>
         </div>
       </div>
