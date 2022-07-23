@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import style from './Register.module.css'
-import { FcGoogle } from 'react-icons/fa'
+// import { FcGoogle } from 'react-icons/fa'
 
 
 const Register = () => {
@@ -37,7 +37,7 @@ const Register = () => {
             <h2 className={style.head}>Sign Up With</h2>
             <div className={style.btndiv} >
                 <div><button className={style.btn}>facebook</button></div>
-                <div><button className={style.btn}><FcGoogle/> Google</button></div>
+                <div><button className={style.btn}>Google</button></div>
             </div>
             <div><hr className={style.hrtag}/></div>
             
