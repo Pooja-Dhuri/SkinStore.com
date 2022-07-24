@@ -159,7 +159,7 @@ const Navbar = () => {
                   margin: "10px 30px 30px 20px",
                   paddingLeft:"40px",
                   border:"0px",
-                  fontSize:"30px",
+                  fontSize:"20px",
                 }}
                 >LOGOUT</MenuItem>
               </MenuList>
