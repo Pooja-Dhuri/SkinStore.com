@@ -38,8 +38,10 @@ const Content = () => {
 	const [pdata,setPData]=useState(price)
 return (
 	<div className={style.container}>
-	<div>
-		<h3>Gender</h3>
+	<div >
+		<div style={{display:"flex",flexDirection:"row"}}>
+		<div><h3>Gender</h3></div>
+		<div>
 		<ReadMore>
 		{
 			gdata.map((e)=>(
@@ -50,6 +52,8 @@ return (
 			))
 		}
 		</ReadMore>
+		</div>
+		</div>
 		<h3>Average Reviews</h3>
 	
 		<ReadMore>

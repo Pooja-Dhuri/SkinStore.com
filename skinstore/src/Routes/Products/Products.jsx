@@ -15,6 +15,7 @@ import {
     Text,
     useDisclosure,
   } from '@chakra-ui/react';
+  import {AiOutlineLeft,AiOutlineRight,AiOutlineHeart} from 'react-icons/ai'
 
 const Products = () => {
     const [prodata,setProData]=useState([])
@@ -47,13 +48,12 @@ const Products = () => {
         <Sidebar/>
         </div>
     <div className={style.productmapdiv}>
-       <h6>25results</h6>
+       <div><h4>12results</h4></div>
        <div className={style.page}>
-        {/* paginatin and filteration */}
-        <div>
-            <div>
-                <h4>Filter:</h4>
-            <select name="" id=""onClick={handleChange}>
+        {/* filteration */}
+        <div className={style.filterdiv}>
+                <div><h4>Sort By</h4></div>
+                 <div ><select name="" id=""onClick={handleChange}className={style.selectdiv}>
                 <option value="default">Default</option>
                 <option value="4">Popularity</option>
                 
@@ -64,14 +64,14 @@ const Products = () => {
 
                 {/* <option value="A-Z">A-Z</option>
                 <option value="newestarrivals">Newest arrival</option> */}
-            </select>
-            </div>
+                </select></div>
         </div>
+        {/* pagination */}
         <div className={style.pagebtn}>
-            <div><button onClick={()=>setPage(page-1)}disabled={page<=1}>less</button></div>
-            <div><button onClick={()=>setPage(page-1)} >1</button></div> 
-            <div><button onClick={()=>setPage(page+1)}>2</button></div>
-            <div><button onClick={()=>setPage(page+1)}disabled={page>=2}>greater</button></div>
+            <div><button onClick={()=>setPage(page-1)}disabled={page<=1}className={style.singlebutton}><AiOutlineLeft/></button></div>
+            <div><button onClick={()=>setPage(page-1)} className={style.singlebutton1}>1</button></div> 
+            <div><button onClick={()=>setPage(page+1)}className={style.singlebutton1}>2</button></div>
+            <div><button onClick={()=>setPage(page+1)}disabled={page>=2}className={style.singlebutton}><AiOutlineRight/></button></div>
             
         </div>
         </div>
@@ -81,15 +81,15 @@ const Products = () => {
         
             {
                 prodata.map((e)=>(
-                    <div>
-                    <div>icon</div>
+                    <div className={style.gapmap}>
+                    <div style={{display:"flex",flexDirection:"row-reverse"}}><AiOutlineHeart style={{height:"30px",width:"30px"}}/></div>
                     <Link to={`/products/${e.id}`}>
                     <div><img src={e.image1} alt="" /></div></Link>
                     <div>{e.title}</div>
-                    <div>{e.offer}</div>
-                    <div>{e.star}</div>
-                    <div>{e.price}</div>
-                    <div><button>QUICK BUY</button></div>
+                    <div style={{border:"1px solid red",padding:"10px 0px 10px 10px",width:"50%",fontWeight:"30px",marginTop:"20px"}}>{e.offer}</div>
+                    {/* <div>{e.star}</div> */}
+                    <div><h3>${e.price}.00</h3></div>
+                    <div><button style={{width:"100%",height:"45px",backgroundColor:"#2E3337",color:"white",border:"0px"}}>QUICK BUY</button></div>
                     </div>
                 ))
             }
