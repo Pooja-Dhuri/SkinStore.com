@@ -14,10 +14,14 @@ import {
 } from "@chakra-ui/react";
 import { useContext } from "react";
 import { AuthContext } from "../Context/AuthContext";
+import { CartContext } from "../Context/CartContext";
+import { useState } from "react";
 
 const Navbar = () => {
   const {isAuth,getdata}=useContext(AuthContext)
-  console.log(getdata.fname1)
+  const {cartcount}=useContext(CartContext)
+  console.log(getdata)
+  // const value=getdata.fname1
   const navigate=useNavigate()
   const {
     isOpen: isLoginOpen,
@@ -149,9 +153,10 @@ const Navbar = () => {
                       width: "50px",
                       height: "40px",
                       margin: "10px 30px 30px 20px",
-                      paddingLeft:"40px",
-                      border:"0px"
-                    }}>{getdata.fname1}</MenuItem>
+                      paddingLeft:"10px",
+                      border:"0px",
+                      fontSize:"20px"
+                    }}>Hii_Pooja</MenuItem>
                 <MenuItem onClick={handlelogout}
                 style={{
                   width: "50px",
@@ -183,7 +188,9 @@ const Navbar = () => {
                   onMouseLeave={onCartClose}
                 >
                   <Link to="/cart" className={style.cart}>
-                    <FaShoppingBasket className={style.icon} />
+                    <div style={{display:"flex"}}>
+                    <div><FaShoppingBasket className={style.icon} /></div>
+                    <div>{cartcount}</div></div>
                     Cart
                   </Link>
                 </MenuButton>
@@ -192,7 +199,7 @@ const Navbar = () => {
                   onMouseLeave={onCartClose}
                   className={style.dropdownlogin}
                 >
-                  <MenuItem>There is nothing In your cart</MenuItem>
+                  <MenuItem>Count:{cartcount}</MenuItem>
                 </MenuList>
               </Menu>
             </div>

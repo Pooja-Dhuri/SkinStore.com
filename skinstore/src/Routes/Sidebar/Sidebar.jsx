@@ -38,21 +38,19 @@ const Content = () => {
 	const [pdata,setPData]=useState(price)
 return (
 	<div className={style.container}>
-	<div >
-		<div style={{display:"flex",flexDirection:"row"}}>
 		<div><h3>Gender</h3></div>
 		<div>
+			<div>
 		<ReadMore>
 		{
 			gdata.map((e)=>(
 				<div className={style.scontent}>
-					<input type="checkbox" />
-					<p>{e.gtitle}</p>
+					<div><input type="checkbox" /></div>
+					<div><p>{e.gtitle}</p></div>
 				</div>
 			))
 		}
 		</ReadMore>
-		</div>
 		</div>
 		<h3>Average Reviews</h3>
 	
