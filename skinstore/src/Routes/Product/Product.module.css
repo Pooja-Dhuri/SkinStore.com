@@ -1,11 +1,11 @@
 .pimgdiv{
-    height: 500px;
+    height: 600px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
     /* border: 1px solid black; */
-    padding-top: 50px;
+    padding-top: 30px;
     line-height: 50px;
 }
 .pimg{
