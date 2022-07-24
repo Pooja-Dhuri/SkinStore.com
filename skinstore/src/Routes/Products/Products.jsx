@@ -17,7 +17,9 @@ import {
   } from '@chakra-ui/react';
   import {AiOutlineLeft,AiOutlineRight,AiOutlineHeart} from 'react-icons/ai'
 
+
 const Products = () => {
+   
     const [prodata,setProData]=useState([])
     const [page,setPage]=useState(0)
     const [ascdesc,setAscDesc]=useState("desc")

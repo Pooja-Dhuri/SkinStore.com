@@ -1,0 +1,57 @@
+.pimgdiv{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    /* border: 1px solid black; */
+    padding-top: 50px;
+    line-height: 50px;
+}
+.pimg{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.ptitle{
+    font-size: 40px;
+}
+.Qbtndiv{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.Qbtn{
+    display: flex;
+}
+.singlebtn{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    font-size: 30px;
+}
+.singleh3{
+    height: 48px;
+    width: 48px;
+    border: 1px solid black;
+    margin-top: -0px;
+    font-size: 30px;
+}
+.rightdiv{
+    width: 400px;
+}
+.cartbtn{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+}
+.productlink{
+    text-decoration: none;
+    color: black;
+}
+.productlinkdiv{
+    text-align: left;
+    padding: 20px;
+}
