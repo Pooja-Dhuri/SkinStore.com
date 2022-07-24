@@ -1,12 +1,12 @@
 import './App.css';
 import AllRoutes from './Routes/AllRoutes';
-import Products from './Routes/Products';
+import Products from './Routes/Products/Products';
 
 function App() {
   return (
     <div className="App">
-     {/* <AllRoutes/> */}
-     <Products/>
+     <AllRoutes/>
+     {/* <Products/> */}
     </div>
   );
 }

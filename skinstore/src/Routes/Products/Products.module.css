@@ -1,0 +1,27 @@
+.productmap{
+  
+   /* margin: 20% 0px 0px 20%; */
+   display: grid;
+   /* position: absolute; */
+   grid-template-columns: repeat(3,1fr);
+   /* border: 1px solid black; */
+} 
+.productmapdiv{
+    width: 80%; 
+}
+.contentdata{
+    display: flex;
+    justify-content: space-between;
+}
+.page{
+    display: flex;
+    justify-content: space-around;
+}
+.pagebtn{
+    display: flex;
+}
+.pagebtn>div{
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+}

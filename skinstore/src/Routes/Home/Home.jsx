@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
 import style from './Home.module.css'
 import SimpleImageSlider from "react-simple-image-slider";
-import homedata from "./Homepagedata.json"
+import homedata from "../Home/Homepagedata.json"
+import { Link } from 'react-router-dom';
 
 
 const images = [
@@ -63,7 +64,8 @@ const Home = () => {
           {
             trend.map((e)=>(
                 <div>
-                    <div><img src={e.image}className={style.trendimg}/></div>
+                  <Link to="/products">
+                    <div><img src={e.image}className={style.trendimg}/></div></Link>
                     <div className={style.title}>{e.title}</div>
                     <div className={style.titlep}>{e.description}</div>
                     <div><button className={style.btn}>SHOP NOW</button></div>

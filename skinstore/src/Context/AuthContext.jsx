@@ -12,9 +12,9 @@ function AuthContextProvider({children}){
             email1:"",password1:"",fname1:""
            })
 
-           const bringForm=(email1,password1)=>{
+           const bringForm=(email1,password1,fname1)=>{
             setGetData({
-                ...getdata,email1,password1
+                ...getdata,email1,password1,fname1
             })
             // console.log(email1,password1)
            }
@@ -34,7 +34,7 @@ function AuthContextProvider({children}){
             setIsAuth(false)
            }
 return (
-    <AuthContext.Provider value={{bringForm,bringLoginform,login,logout,isAuth}}>{children}</AuthContext.Provider>
+    <AuthContext.Provider value={{bringForm,bringLoginform,login,logout,isAuth,getdata}}>{children}</AuthContext.Provider>
 )
 }
 export default AuthContextProvider

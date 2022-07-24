@@ -53,6 +53,10 @@ div>h5{
     margin-bottom: 30px;
     margin-left: -350px;
 }
+.button:hover{
+    background-color: teal;
+    border: 0px;
+}
 div>h4{
     text-align: left;
 }

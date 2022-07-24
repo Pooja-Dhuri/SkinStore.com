@@ -2,9 +2,10 @@ import React,{useState} from 'react'
 import { useContext } from 'react'
 import { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { AuthContext } from '../Context/AuthContext'
+import { AuthContext } from '../../Context/AuthContext'
 import Login from './Login'
 import style from './Register.module.css'
+import { Link } from 'react-router-dom'
 // import { FcGoogle } from 'react-icons/fa'
 
 
@@ -32,7 +33,7 @@ const Register = () => {
         navigate("/login");
         // <Login regdata={data}/>
         // console.log(data.email)
-        bringForm(data.email,data.password)
+        bringForm(data.email,data.password,data.fname)
     }
      
   }
