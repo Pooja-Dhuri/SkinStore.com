@@ -199,7 +199,14 @@ const Navbar = () => {
                   onMouseLeave={onCartClose}
                   className={style.dropdownlogin}
                 >
-                  <MenuItem>Count:{cartcount}</MenuItem>
+                  <MenuItem  style={{
+                  width: "50px",
+                  height: "40px",
+                  margin: "10px 30px 30px 20px",
+                  paddingLeft:"40px",
+                  border:"0px",
+                  fontSize:"20px",
+                }}>Count:{cartcount}</MenuItem>
                 </MenuList>
               </Menu>
             </div>
