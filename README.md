@@ -1,8 +1,8 @@
-# “shop.com” Website Clone
+# “skin-Store.com” Website Clone
 
 ![Homepage ](./Screenshots/HomePage.png)
 
-### SHOP.COM is a new kind of shopping comparison site that offers the most comprehensive shopping experience on the web.
+### Skin-Store is E-commerce website where we have cosmetic products like skincare, haircare, selfcare ,bath & body like products.
 
 This is our first project at Masai School using JavaScript, HTML, and CSS. We worked on “Shop.com”, an online shopping store.
 
