@@ -16,7 +16,7 @@ const Product = () => {
 
     useEffect(()=>{
         if(id){
-            fetch(`http://localhost:8080/skincareproducts/${id}`)
+            fetch(`https://jsonserverfileapi.herokuapp.com/skincareproducts/${id}`)
             .then((res)=>res.json())
             .then((d)=>setProduct(d))
         }

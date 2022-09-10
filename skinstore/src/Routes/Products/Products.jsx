@@ -26,7 +26,7 @@ const Products = () => {
     // const [filterRating, setFilterRating] = useState(5);
     const { isOpen, onOpen, onClose } = useDisclosure();
     useEffect(()=>{
-        axios.get(`http://localhost:8080/skincareproducts?_page=${page}&_limit=13&_sort=price&_order=${ascdesc}`)
+        axios.get(`https://jsonserverfileapi.herokuapp.com/skincareproducts?_page=${page}&_limit=13&_sort=price&_order=${ascdesc}`)
         .then((res)=>{
             setProData(res.data)
         })
