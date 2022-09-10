@@ -171,7 +171,7 @@ And we all thank every single team member for contributing and giving there 100%
 
 ## Netlify Link
 
-[https://ephemeral-cactus-fa8c49.netlify.app/](https://ephemeral-cactus-fa8c49.netlify.app/)
+https://skin-store-clone.netlify.app/
 
 ## Blog Link
 
