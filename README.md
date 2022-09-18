@@ -1,15 +1,15 @@
-# “skin-Store.com” Website Clone
+# “Skin-Store.com” Website Clone
 
 ![Homepage ](./Screenshots/HomePage.png)
 
 ### Skin-Store is E-commerce website where we have cosmetic products like skincare, haircare, selfcare ,bath & body like products.
 
-This is our first project at Masai School using JavaScript, HTML, and CSS. We worked on “Shop.com”, an online shopping store.
+### This is the Individual project which was given and have to built within 5 days.
 
 ## Technologies we used
 
-1. We used HTML-5 and CSS-3 for front-end
-2. Javascript for back-end
+1. Used Html5, CSS, ChakraUi as a FrontEnd
+2. React, Javascript for back-end
 3. Localstorage is used for the data-storing purpose (as we are not introduced to the databases till now)
 
 ## 🚀 Our Team Members:-
@@ -18,15 +18,9 @@ This is our first project at Masai School using JavaScript, HTML, and CSS. We wo
 
 ### Homepage -
 
-This is our home page were we tried to build the same page as it is visible in the main website and also adding some styles to look better, and linking the other pages to the home page.
+This is our home page were I tried to build the same page as it is visible in the main website and also adding some styles to look better, and linking the other pages to the home page.
 
 ![Homepage ](./Screenshots/HomePage.png)
-
-### Navigation bar and Footer -
-
-If the user clicks on the SignUp/login or any other option page it shows the pages of that section.
-
-![Navigation bar](./Screenshots/Footer%20part.png)
 
 ### Sign up / Sign in Page -
 
@@ -41,15 +35,9 @@ Here users can browse and add items to the cart by clicking on the Add to Cart b
 
 ![Products Page](./Screenshots/Review%20Page.png)
 
-### Cart Page -
+### Single Product Page -
 
-Here all the products added to the cart will be shown. On this page, you can also remove the items. By clicking on the “Proceed to Checkout” button you will be redirected to the checkout page.
-
-![Cart](./Screenshots/Cart%20Page.png)
-
-### Payment Page -
-
-On this page, users can add their address details and add their payment details.
+On this page, users can see the details of the product.
 
 By providing these details users can send OTP and after OTP varification user will get notification of order placed.
 
@@ -58,7 +46,3 @@ By providing these details users can send OTP and after OTP varification user wi
 ## Netlify Link
 
 https://skin-store-clone.netlify.app/
-
-## Blog Link
-
-[https://medium.com/@rameshmane7218/project-on-clone-of-shop-com-21cb01221a01](https://medium.com/@rameshmane7218/project-on-clone-of-shop-com-21cb01221a01)
